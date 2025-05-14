@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EEPIS SOC</title>
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="Logo_PENS.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100 imageback">
+  <div class="container-fluid p-0 m-0 fixed-top border-bottom border-warning border-5"">
+    <nav class=" navbar navbar-dark navbar-expand-sm bg-primary">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <img src="https://ethol.pens.ac.id/penswhite.png" width="50">
+      </a>
+      <h6 class="text-light lh-sm me-auto ibm-plex-sans-bold">EEPIS<br>Security Operation Center</h6>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex ps-2 ibm-plex-sans-medium">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex pe-2">
+            <li class="nav-item">
+              <a class="nav-link active text-light link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-light link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                href="#scrollspyabout">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                href="#scrollspyservice">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                href="#scrollspyfoot">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+  </div>
+  <div class>
+    <img class="img-fluid fullscreen" src="start.jpg">
+    <div class="overlay-text">
+      <h1 class="text-light text-left display-1 me-5 ibm-plex-sans-bold" id="start"></h1>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="aniup" id="scrollspyabout">
+      <div class="container">
+        <h3 class="text-light text-center sub-underline pt-3 ibm-plex-sans-bold">Apa itu SOC?</h3>
+        <div class="container text-light border-bottom border-warning">
+          <p class="text-left ibm-plex-sans-regular">Security Operation Center (SOC) dalam bahasa Indonesia sering disebut sebagai Pusat
+            Operasi Keamanan. SOC adalah fasilitas yang dirancang untuk memantau, mendeteksi, menganalisis, dan
+            merespons ancaman keamanan siber secara terpusat. Tujuannya adalah melindungi infrastruktur TI, data, dan
+            aset organisasi dari serangan siber dengan respons yang cepat dan efisien.
+            SOC biasanya dilengkapi dengan tim yang bekerja 24/7 untuk memastikan setiap ancaman atau insiden keamanan
+            dapat ditangani segera.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pt-3 aniup" id="scrollspyservice">
+      <div class="container-fluid ">
+        <h3 class=" text-center sub-underline text-light">Layanan</h3>
+        <div class="d-flex justify-content-evenly flex-wrap text-center ibm-plex-sans-semibold">
+          <div class="col-6 col-sm-3">
+            <img src="monitoring.png" width="100px">
+            <h5 class="text-light">Threat Monitoring </h5>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img src="vulnerability.png" width="100px">
+            <h5 class="text-light">Vulnerability Management</h5>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img src="analisis.png" width="100px">
+            <h5 class="text-light">Report & Analysis</h5>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img src="Dataprotect.png" width="100px">
+            <h5 class="text-light">Data Protection</h5>
+          </div>
+          <div class="col-6 col-sm-3">
+            <img src="realtime.png" width="100px">
+            <h5 class="text-light">Realtime Protection</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center aniup">
+      <div class="container-fluid d-inline-flex justify-content-center pt-3 border-end">
+        <div class="pb-4">
+          <h3 class="text-light text-center sub-underline" id="scrollspyhot">Hotline</h3>
+          <div class="card ">
+            <div class="card-body">
+              <h5 class="card-title">name</h5>
+              <p class="card-text">+62 08xx-xxxx-xxxx</p>
+              <a href="" class="btn btn-primary">contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-inline-flex justify-content-center pt-3">
+        <div class="pb-4">
+          <h3 class="text-light text-center sub-underline" id="scrollspyhot">Status</h3>
+          <div class="card ">
+            <div class="card-body">
+              <img src="Green-Checklist-PNG-Image.png" width=100px>
+              <h4 class="card-text text-center">Operasional</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid p-0 m-0 mt-auto" id="scrollspyfoot">
+    <div class="container-fluid aniup  bg-foot border-top border-warning border-5">
+      <div class=" container-fluid  text-light">
+        <div class="row p-2 ">
+          <div class="col-4">
+            <h6 class="fw-bold">Kontak kami</h6>
+            <p class="text-break text-secondary">+62 08xx-xxxx-xxxx</p>
+          </div>
+          
+          <div class="col-4 ibm-plex-sans-regular border-start">
+            <h6 class="fw-bold text-light">Tautan</h6>
+            <a class="text-secondary link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="https://www.pens.ac.id/">Web Resmi Pens</a><br>
+            <a class="text-secondary link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="">Form pengaduan</a><br>
+            <a class="text-secondary link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="">web</a><br>
+            <a class="text-secondary link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="">web</a><br>
+          </div>
+
+          <div class="col-4 border-start">
+            <h6 class="fw-bold">bagian dari</h6>
+            <img src="Logo_PENS.png" width="50">
+            <p class="text-break text-secondary">Politeknik Elektronika Negeri Surabaya<br>Kampus PENS, Jalan Raya ITS Keputih, Sukolilo, Surabaya 60111</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid border-top ">
+      <p class="fs-6 pe-2 text-secondary ibm-plex-sans-light">© 2024 Politeknik Elektronika Negeri Surabaya</p>
+    </div>
+  </div>
+</body>
+
+</html>

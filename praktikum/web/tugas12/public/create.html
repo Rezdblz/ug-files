@@ -1,0 +1,84 @@
+<html>
+    <style>
+        br {
+            display: block; 
+            content: ""; 
+            margin-top: 10; 
+            }
+    </style>
+    <body>
+        <h1>Create</h1>
+        <form action="/submit" method="post">
+            <div>
+                <label for="nama">1. nama : </label>
+                <input type="text" name="nama" placeholder="Agus B"><br>
+                <label for="NRP">2. NRP : </label>
+                <input type="number" name="nrp" placeholder="xxxxxxxxxx" required><br>
+                <label for="class">3. Kelas : </label>
+                <input type="text" name="class" placeholder="" ><br>
+                <div>
+                    <label for="gen">4. Jenis Kelamin :</label>
+                    <input type="radio" name = "gen" value="laki-laki">
+                    <label for="gen">laki-laki </label>
+                    <input type="radio" name = "gen" value="perempuan">
+                    <label for="gen">perempuan </label>
+                    <br>
+                </div>
+                <label for="agama">5. Agama :</label>
+                <select name="agama" id="rlg">
+                    <option value="islam">islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+                <br>
+                <div>
+                    <label for="tempat">6. Tempat/Tanggal Lahir</label>
+                    <input type="text" name="tempat">
+                    <p1> / </p1>
+                    <input type="date" name="tl">
+                    <br>
+                </div>
+                <label for="alamat">7. Alamat :</label><br>
+                <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea>
+                <br>
+                <div>
+                    <label>8. Pendidikan terakhir :</label><br>
+                    <label for="SD">A. SD  :</label>
+                    <input type="text" name="sd"><br>
+                    <label for="SMP">B. SMP :</label>
+                    <input type="text" name="smp"><br>
+                    <label for="SMA">C. SMA :</label>
+                    <input type="text" name="sma"><br>
+                </div>
+                <label for="email">9. Email :</label>
+                <input type="email" name="email"><br>
+                <label for="home">10. Homepage:</label>
+                <input type="url" name="home"><br>
+                <label for="hobi">11. Hobby</label><br>
+                <textarea name="hobby" rows="4" cols="50"></textarea>
+                <div>
+                    <label>12. Interest : </label>
+                    
+                    <input type="checkbox" name="inte[]" id="kom" value="Komputer">
+                    <label for="kom">Komputer</label>
+                    <input type="checkbox" name="inte[]" id="sport" value="Sport">
+                    <label for="sport">Sport</label>
+                    <input type="checkbox" name="inte[]" id="travel" value="Traveling">
+                    <label for="travel">Travelling</label>
+                    <input type="checkbox" name="inte[]" id="write" value="Writing">
+                    <label for="write">Writing</label>
+                    <input type="checkbox" name="inte[]" id="read" value="Reading">
+                    <label for="read">Reading</label>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <a href="index.html">back</a>
+    </body>
+</html>
